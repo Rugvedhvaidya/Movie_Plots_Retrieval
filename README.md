@@ -71,7 +71,8 @@ By Following the **Required Steps** we can complete the main goal of this Projec
  - **Query Input**- A query can be asked by user.
  
  - **Evaluation** - Using users' feedback precision and recall are calculated. p-r curve is drawn at last.
-```py def  evaluate(feedback):
+```py 
+def  evaluate(feedback):
 relevant_retrieved=feedback.count('1')
 relavent_count=0
 for ct in  range(10):
