@@ -43,8 +43,9 @@ By Following the **Required Steps** we can complete the main goal of this Projec
 - Run all the cells in the file.
 - Head to the query cell and enter the query in the input box.
 - The top 10 documents will be retrieved and shown.
-- You can give feedback for each document listed above this cell
+- You can give feedback for each document listed above this cell.
 - Using the above entered feedback the next cell will show a p-r graph.
+- Enter filters in the query string using /. Example:- classical singer /year 1950 /genre mystery
 
 ## Components in Movie Plot Retrieval System
 
@@ -55,7 +56,7 @@ By Following the **Required Steps** we can complete the main goal of this Projec
 	```py 
 	def  preprocess(data):
 				return remove_stop_words(nltk.word_tokenize(text_cleaner(data)))
-``
+	```
 
 - **Indexing** - Indexing and searching methods and procedures (an indexing system can be human or automated).
 
