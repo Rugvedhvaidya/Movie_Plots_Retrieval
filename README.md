@@ -176,7 +176,7 @@ For Non trivial task we are doing filtering by year where we are retrieving all 
 For Non trivial task we are doing filtering by Genre where we are retrieving all the documents which are released in the same year
 
 ## Team Members
-- **Rugvedh**
-- **Likhith**
-- **Pranay**
-- **Bhaskar**
+- **Rugvedh - S20190010185**
+- **Likhith - S20190010008**
+- **Pranay - S20190010001**
+- **Bhaskar - S20190010188**
