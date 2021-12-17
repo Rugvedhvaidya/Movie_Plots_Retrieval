@@ -54,7 +54,7 @@ By Following the  **Required Steps** we can complete the main goal of this Proje
 
 ## How to Run The Project
 
-- Open the ipynb in some editor like Jupyter Notebook
+- Open the ipynb in some editor like Jupyter Notebook or Google Collab
 - Run all the cells in the file.
 - Head to the query cell and enter the query in the input box.
 - The top 10 documents will be retrieved and shown.
