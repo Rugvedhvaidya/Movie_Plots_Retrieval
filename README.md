@@ -53,3 +53,10 @@ By Following the  **Required Steps** we can complete the main goal of this Proje
  - **Report**- Mentioning the  Tasks and the Sub tasks of the Information Retrieval System and mentioning the contributions of the team members and their details.
 
 ## How to Run The Project
+
+- Open the ipynb in some editor like Jupyter Notebook
+- Run all the cells in the file.
+- Head to the query cell and enter the query in the input box.
+- The top 10 documents will be retrieved and shown.
+- You can give feedback for each document listed above this cell
+- Using the above entered feedback the next cell will show a p-r graph.
