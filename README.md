@@ -44,10 +44,10 @@ By Following the **Required Steps** we can complete the main goal of this Projec
 	```py 
 	def  preprocess(data):
 				return remove_stop_words(nltk.word_tokenize(text_cleaner(data)))
-```
+``
 
-	
 - **Indexing** - Indexing and searching methods and procedures (an indexing system can be human or automated).
+
 	```py 
 	inverted_index = {}
 	def  add_term_to_inverted_index(term,documentID):
@@ -65,7 +65,7 @@ By Following the **Required Steps** we can complete the main goal of this Projec
 			inverted_index[term]['posting_list'].append({'docID':documentID,'count':1})
 			inverted_index[term]['count']=len(inverted_index[term]['posting_list'])
 			inverted_index[term]['posting_list'] = sorted(inverted_index[term]['posting_list'],key=lambda x:x['docID'])
-```
+
 - **Ranked Retrieval** - The documents are ranked using cosine similarity and top 10 documents are retrieved.
 
  - **Query Input**- A query can be asked by user.
